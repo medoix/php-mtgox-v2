@@ -3,16 +3,16 @@
 class MtGox_Public_Api extends MtGox_Api_Base 
 {
 
-    const uri_ticker          = '1/BTC%s/ticker';
-    const uri_depth           = '1/BTC%s/depth';
-    const uri_trades          = '1/BTC%s/trades';
-    const uri_cancelledtrades = '1/BTC%s/cancelledtrades';
-    const uri_fulldepth       = '1/BTC%s/fulldepth';
-    const uri_tx_details      = '1/generic/bitcoin/tx_details';
-    const uri_block_list      = '1/generic/bitcoin/block_list_tx';
-    const uri_addr_details    = '1/generic/bitcoin/addr_details';
-    const uri_order_lag       = '1/generic/order/lag';
-    const uri_currency_info   = '1/generic/currency';
+    const uri_ticker          = '2/BTC%s/money/ticker';
+    const uri_depth           = '2/BTC%s/money/depth';
+    const uri_trades          = '2/BTC%s/money/trades';
+    const uri_cancelledtrades = '2/BTC%s/money/cancelledtrades';
+    const uri_fulldepth       = '2/BTC%s/money/fulldepth';
+    const uri_tx_details      = '2/money/bitcoin/tx_details';
+    const uri_block_list      = '2/money/bitcoin/block_list_tx';
+    const uri_addr_details    = '2/money/bitcoin/addr_details';
+    const uri_order_lag       = '2/money/order/lag';
+    const uri_currency_info   = '2/BTC%s/money/currency';
 
     // returns the current ticker for the selected currency
     public function get_ticker()
