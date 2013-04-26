@@ -1,7 +1,7 @@
-php-mtgox-v1
+php-mtgox-v2
 ============
 
-MtGox V1 API library written in PHP
+MtGox V2 API library written in PHP
 
 # Private API usage example
 ```
