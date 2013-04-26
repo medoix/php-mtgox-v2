@@ -7,7 +7,7 @@ class MtGox_Api_Base
     protected $secret;
     protected $active_currency;
 
-    const api_url = 'https://mtgox.com/api/';
+    const api_url = 'https://data.mtgox.com/api/';
 
     const order_buy = 'bid';
     const order_sell = 'ask';
