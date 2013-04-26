@@ -3,8 +3,8 @@
 class MtGox_Merchant_Api extends MtGox_Api_Base 
 {
 
-    const uri_order_create = '1/generic/private/merchant/order/create';
-    const uri_api_info     = '1/generic/private/info';
+    const uri_order_create = '2/money/merchant/order/create';
+    const uri_api_info     = '2/money/info';
 
     public function create_order($amount, $currency, $description, $order_number, $success_url, $failure_url, $ipn_url)
     {
